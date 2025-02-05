@@ -34,12 +34,12 @@
   },
   "name":"FrostByte",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"tileroom","path":"rooms/tileroom/tileroom.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"tileroom","path":"rooms/tileroom/tileroom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
