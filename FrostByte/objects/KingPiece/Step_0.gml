@@ -36,5 +36,5 @@ if ( mouse_x >= x + 4 && mouse_x <= x +28) && ( mouse_y >= y + 4 && mouse_y <= y
 		}
 	}
 }
-boardx = (x/32) + 1
-boardy = abs(8-(y/32))
+
+GameManager.CoordtoArray(x,y)
