@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"King_spr",
-    "path":"sprites/King_spr/King_spr.yy",
+    "name":"spr_King",
+    "path":"sprites/spr_King/spr_King.yy",
   },
   "spriteMaskId":null,
   "visible":true,
