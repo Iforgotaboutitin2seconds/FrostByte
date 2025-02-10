@@ -7,5 +7,5 @@ boardx = (x/32) + 1
 hovered = false
 
 if (team == 0){
-	sprite_index = King_spr
+	sprite_index = spr_King
 }
