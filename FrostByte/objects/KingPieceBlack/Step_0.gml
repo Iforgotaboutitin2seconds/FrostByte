@@ -27,43 +27,51 @@ if (global.followingPiece == id) {
                 ds_list_add(legalMovesList, cellIndex);
             }
         }
-    }
+	}
     
     // When the player clicks to drop the piece:
-    if (mouse_check_button_pressed(mb_left)) {
-        // Snap to grid.
-        var dropX = mouse_x - (mouse_x mod 32);
-        var dropY = mouse_y - (mouse_y mod 32);
-        var dropBoardX = dropX div 32;
-        var dropBoardY = dropY div 32;
-        var dropIndex = dropBoardX + dropBoardY * 8;
-        
-        // Check if dropIndex is within legal moves.
-        var validMove = false;
-        for (var i = 0; i < ds_list_size(legalMovesList); i++) {
-            if (ds_list_find_value(legalMovesList, i) == dropIndex) {
-                validMove = true;
-                break;
-            }
+	if (mouse_check_button_pressed(mb_left)) {
+    // Snap the drop position to the grid.
+    var dropX = mouse_x - (mouse_x mod 32);
+    var dropY = mouse_y - (mouse_y mod 32);
+    var dropBoardX = dropX div 32;
+    var dropBoardY = dropY div 32;
+    var dropIndex = dropBoardX + dropBoardY * 8;
+    
+    // Check if dropIndex is among the legal moves.
+    var validMove = false;
+    for (var i = 0; i < ds_list_size(legalMovesList); i++) {
+        if (ds_list_find_value(legalMovesList, i) == dropIndex) {
+            validMove = true;
+            break;
         }
-        
-        // If move is legal, update position; otherwise, revert.
-        if (validMove) {
-            x = dropX;
-            y = dropY;
-        } else {
-            x = origX;
-            y = origY;
-        }
-        
-        // End the drag and clear the selection.
-        global.followingPiece = -1;
-        dragging = false;
-        ds_list_clear(legalMovesList);
-        
-        // Switch turn after a move.
-        global.turn = (global.turn + 1) mod 2;
     }
+    
+    if (validMove) {
+        var enemyKing = collision_point(dropX + 16, dropY + 16, KingPieceWhite, false, true);
+        if (enemyKing != noone && enemyKing.team != team) {
+            instance_destroy(enemyKing);
+
+			room_goto(p2win);
+
+        }
+        
+        x = dropX;
+        y = dropY;
+    } else {
+        // Invalid drop move – reset position.
+        x = origX;
+        y = origY;
+    }
+    
+    // End the drag and clear selection.
+    global.followingPiece = -1;
+    dragging = false;
+    ds_list_clear(legalMovesList);
+    
+    // Switch turn after a move (if no capture ended the game)
+    global.turn = (global.turn + 1) mod 2;
+}
     
 } else {
     // Only allow selection if this piece is on the current turn.
