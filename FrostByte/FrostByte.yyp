@@ -41,6 +41,8 @@
     {"id":{"name":"p2win","path":"rooms/p2win/p2win.yy",},},
     {"id":{"name":"tileroom","path":"rooms/tileroom/tileroom.yy",},},
     {"id":{"name":"Hover_spr","path":"sprites/Hover_spr/Hover_spr.yy",},},
+    {"id":{"name":"p1win_spr","path":"sprites/p1win_spr/p1win_spr.yy",},},
+    {"id":{"name":"p2win_spr","path":"sprites/p2win_spr/p2win_spr.yy",},},
     {"id":{"name":"pieces","path":"sprites/pieces/pieces.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_King","path":"sprites/spr_King/spr_King.yy",},},
