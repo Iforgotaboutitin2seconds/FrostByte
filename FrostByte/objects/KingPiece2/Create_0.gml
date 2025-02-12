@@ -1,8 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-hovered = false
-
-if (team == 0){
-	sprite_index = spr_King
-}
+team = 1
+dragging = false;         
+origX = x;                
+origY = y;                
+legalMovesList = ds_list_create();
+hovered = false; 
