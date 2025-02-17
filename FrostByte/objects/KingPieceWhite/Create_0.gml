@@ -1,4 +1,4 @@
-team = 0
+team = 0;
 dragging = false;         
 origX = x;                
 origY = y;                
