@@ -51,31 +51,61 @@
 =======
     {"id":{"name":"KingPieceBlack","path":"objects/KingPieceBlack/KingPieceBlack.yy",},},
     {"id":{"name":"KingPieceWhite","path":"objects/KingPieceWhite/KingPieceWhite.yy",},},
+    {"id":{"name":"obj_button_help","path":"objects/obj_button_help/obj_button_help.yy",},},
+    {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
+    {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
+    {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
+    {"id":{"name":"obj_button_restart","path":"objects/obj_button_restart/obj_button_restart.yy",},},
+    {"id":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},},
+    {"id":{"name":"obj_FallenTile","path":"objects/obj_FallenTile/obj_FallenTile.yy",},},
+    {"id":{"name":"obj_FallingTileEffect","path":"objects/obj_FallingTileEffect/obj_FallingTileEffect.yy",},},
+    {"id":{"name":"obj_FallingTileManager","path":"objects/obj_FallingTileManager/obj_FallingTileManager.yy",},},
+    {"id":{"name":"title","path":"objects/title/title.yy",},},
     {"id":{"name":"p1win","path":"rooms/p1win/p1win.yy",},},
     {"id":{"name":"p2win","path":"rooms/p2win/p2win.yy",},},
+<<<<<<< HEAD
 >>>>>>> 4bcf45c66f7ca1076e581cea2608863845469aa1
+=======
+    {"id":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
+>>>>>>> c3b685126b658bd177d15040e14e5617bc5521fe
     {"id":{"name":"tileroom","path":"rooms/tileroom/tileroom.yy",},},
     {"id":{"name":"Hover_spr","path":"sprites/Hover_spr/Hover_spr.yy",},},
     {"id":{"name":"p1win_spr","path":"sprites/p1win_spr/p1win_spr.yy",},},
     {"id":{"name":"p2win_spr","path":"sprites/p2win_spr/p2win_spr.yy",},},
     {"id":{"name":"pieces","path":"sprites/pieces/pieces.yy",},},
+    {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+<<<<<<< HEAD
 <<<<<<< HEAD
     {"id":{"name":"spr_black_wins","path":"sprites/spr_black_wins/spr_black_wins.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
 =======
+=======
+    {"id":{"name":"spr_break","path":"sprites/spr_break/spr_break.yy",},},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+>>>>>>> c3b685126b658bd177d15040e14e5617bc5521fe
     {"id":{"name":"spr_King","path":"sprites/spr_King/spr_King.yy",},},
     {"id":{"name":"spr_King2","path":"sprites/spr_King2/spr_King2.yy",},},
     {"id":{"name":"spr_legalMove","path":"sprites/spr_legalMove/spr_legalMove.yy",},},
 >>>>>>> 4bcf45c66f7ca1076e581cea2608863845469aa1
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"spr_white_wins","path":"sprites/spr_white_wins/spr_white_wins.yy",},},
+=======
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
+    {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
+    {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
+>>>>>>> c3b685126b658bd177d15040e14e5617bc5521fe
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+<<<<<<< HEAD
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
+=======
+    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
+>>>>>>> c3b685126b658bd177d15040e14e5617bc5521fe
     {"roomId":{"name":"tileroom","path":"rooms/tileroom/tileroom.yy",},},
 <<<<<<< HEAD
     {"roomId":{"name":"rm_black_wins","path":"rooms/rm_black_wins/rm_black_wins.yy",},},

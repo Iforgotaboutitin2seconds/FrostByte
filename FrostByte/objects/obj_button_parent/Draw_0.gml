@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 draw_self();
+=======
+ draw_self();
+>>>>>>> c3b685126b658bd177d15040e14e5617bc5521fe
 
 draw_set_font(fnt_menu);
 
